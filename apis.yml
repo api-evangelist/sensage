@@ -1,8 +1,28 @@
 aid: sensage
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sensage.png
 name: SenSage
-description: SenSage is a company surfaced as a portfolio company of battery-ventures, canaan-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  SenSage was a security information and event management (SIEM) and log/event
+  analytics company backed by Battery Ventures and Canaan Partners. Its platform
+  focused on collecting, warehousing, and analyzing very large volumes of security
+  event and log data for threat detection, forensics, and regulatory compliance
+  reporting. SenSage was later acquired by KEYW Holding Corporation and the brand
+  was retired; its former domain, sensage.com, now redirects to IgniteTech (an ESW
+  Capital software-acquisition operator). This profile was surfaced as a venture
+  portfolio company and added to the API Evangelist network as a lead. No active
+  developer portal, public API, or documentation surface was found during
+  enrichment; the company is treated as defunct with no live API footprint.
 url: https://raw.githubusercontent.com/api-evangelist/sensage/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +31,32 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- SIEM
+- Log Management
+- Security Analytics
+- Event Data
+- Compliance
+- Defunct
+common:
+- type: DomainSecurity
+  url: security/sensage-domain-security.yml
+- type: Website
+  url: https://sensage.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
