@@ -1,0 +1,34 @@
+# Front Door AI Index — sensage — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: sensage
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: sensage.com
+  final_host: ignitetech.ai:443
+  ownership: inherited
+  owner: sensage
+  shares_host_with: null
+  inherited_from: ignitetech.ai
+  verdict: scored
+  score: null
+  host_score: 161
+  density: null
+  words: 2451
+  tiers:
+    agentic: 5
+    core: 156
+    model: 0
+  ambiguous: 10
+  top_terms:
+    AI: 136
+    generative ai: 12
+    artificial intelligence: 6
+    intelligence: 6
+    AI agent: 2
+    agent: 2
+    automation: 2
+    gen ai: 2
+    prompts: 2
+    embedding: 1
